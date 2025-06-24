@@ -1,0 +1,10 @@
+#pragma once
+
+enum class ErrorCode {
+    OK,
+    INVALID_INPUT,
+    INDEX_OUT_OF_RANGE,
+    NEGATIVE_QUANTITY,
+    MEMORY_ALLOCATION_FAILED,
+    EMPTY_CONTAINER
+};
